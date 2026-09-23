@@ -1,9 +1,9 @@
 {
   "name": "dsh-hot-memory",
   "version": "0.1.0",
-  "private": true,
   "type": "module",
   "description": "DSH 热记忆（阶段 1）：每轮结束把本轮对话蒸馏成 ~/.dsh/hot-memory/<sessionId>.md，下一轮只注入一行指针。",
+  "license": "MIT",
   "main": "index.js",
   "exports": {
     ".": "./index.js"

@@ -1,0 +1,5 @@
+# dsh-hot-memory-panel bundle（可选）：如果你要把这个插件当 bundle 分发/安装，复制下面这段进 profile 的 cordis.patch.yml。
+# 平时不用管它 —— install.mjs 会自己写正确的行（带缓存键的那种）。
+- insert:
+    - id: dsh-hot-memory-panel
+      name: 'dsh-hot-memory-panel'
