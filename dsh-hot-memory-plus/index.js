@@ -4,7 +4,7 @@
 // 注释里直接写着 R22 的字段）。两条会话改同一个文件 = 互相覆盖，而且查不出是谁覆盖的。
 // 所以这里换一种合作方式：**只读它的产物**（<DSH_HOME>/hot-memory/<sessionId>.md），补它还没有的能力。
 //
-// 补的两条，都是从 meow-memory 蒸馏出来的（调研见 E:\大烧货专区\_research\meow-memory-调研与可借鉴点.md）：
+// 补的两条，都是从 meow-memory 蒸馏出来的（调研见 <工作区>\_research\meow-memory-调研与可借鉴点.md）：
 //
 //   ① 压缩后召回：会话被压缩（/compact 或 token 压力自动触发）后会"突然失忆"。
 //      监听 compaction 事件 → 在压缩后的下一个步骤，把**本会话热记忆全文**注入一次。

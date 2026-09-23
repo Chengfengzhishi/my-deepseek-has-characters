@@ -13,7 +13,7 @@
 
 ## 补的两条（都是从 meow-memory 蒸馏来的）
 
-调研见 E:\大烧货专区\_research\meow-memory-调研与可借鉴点.md。
+调研见 <工作区>\_research\meow-memory-调研与可借鉴点.md。
 
 ### ① 压缩后召回
 

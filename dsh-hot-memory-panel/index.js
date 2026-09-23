@@ -81,7 +81,7 @@ const DEFAULTS = {
   refreshSeconds: 15,
   guidanceContractNote: 'R24 契约：指导双写 —— 契约位置由 dsh-hot-memory 读取，面板副本供自身独立工作',
   // 接线契约（B 侧写、A 侧读）：<DSH_HOME>/hot-memory/_guidance/<sessionId>.md
-  // 依据：E:\大烧货专区\_指挥台\_scratch\接线方案-人工指导.md:29-31（路径 / 格式沿用 / UTF-8 追加写）
+  // 依据：<工作区>\_指挥台\_scratch\接线方案-人工指导.md:29-31（路径 / 格式沿用 / UTF-8 追加写）
   guidanceMirrorDir: '',
   wiringProbeCacheMs: 5000,
   title: '热记忆面板 · 大烧货专区',
