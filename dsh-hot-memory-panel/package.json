@@ -1,0 +1,24 @@
+{
+  "name": "dsh-hot-memory-panel",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "description": "热记忆面板：只读消费 dsh-hot-memory 的 JSON API，把每个会话的记忆分区/字节/判定摊在一页上，并把人工指导落盘成自己的文件（DSH host 插件，零依赖）",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "install.mjs",
+    "verify.mjs",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
